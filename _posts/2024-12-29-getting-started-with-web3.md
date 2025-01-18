@@ -100,7 +100,7 @@ import { ethers } from 'ethers';
 const provider = new ethers.JsonRpcProvider('https://mainnet.infura.io/v3/YOUR_INFURA_API_KEY'); // Replace YOUR_INFURA_API_KEY with your actual API Key
 
 // sepolia provider which is used to connect to the sepolia test network which uses test ether.
-const ropstenProvider = new ethers.JsonRpcProvider('https://sepolia.infura.io/v3/YOUR_INFURA_API_KEY'); // Replace YOUR_INFURA_API_KEY with your actual
+const sepoliaProvider = new ethers.JsonRpcProvider('https://sepolia.infura.io/v3/YOUR_INFURA_API_KEY'); // Replace YOUR_INFURA_API_KEY with your actual
 ```
 
 ---
